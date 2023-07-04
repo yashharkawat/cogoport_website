@@ -368,8 +368,151 @@
                     <button class="know_more_button"><b>Know More </b></button>
                 </div>
             </div>
-        <style>
 
+
+
+            <h3>Blogs</h3>
+
+            <div class="blogs">
+                <div class="blog">
+                    <img class="blog_image" src="./blogs_images/blog1.png" alt="blog 1">
+                    
+                    <div class="blog_text">
+                        <div class="red"><b>Expert Speak</b></div>
+                        <h6>Cogoport: A Global Trade Platform</h6>
+                        <p>Cogoport leverages technology and caters to enterprises of all sizes. Our solutions improve predictability and enhance human capabilities.</p>
+                        <div class="red"><b>Read More -></b></div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img class="blog_image" src="./blogs_images/blog2.png" alt="blog 1">
+                    
+                    <div class="blog_text">
+                        <div class="red"><b>Industry Basics</b></div>
+                        <h6>Understanding Lean Supply Chain Management: Definition and Considerations</h6>
+                        <p>Cogoport leverages technology and caters to enterprises of all sizes. Our solutions improve predictability and enhance human capabilities.</p>
+                        <div class="red"><b>Read More -></b></div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img class="blog_image" src="./blogs_images/blog3.png" alt="blog 1">
+                    
+                    <div class="blog_text">
+                        <div class="red"><b>Industry Basics</b></div>
+                        <h6>Exploring Types of Supply Chain Management Strategies & Logistics</h6>
+                        <p>What are the types of supply chain management? How can we effectively apply them to your business and customer service? Let's find out together!</p>
+                        <div class="red"><b>Read More -></b></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog_buttons">
+                <button class="blog_button"><b>View All</b></button>
+            </div>
+
+            
+
+            <div class="subscribe">
+                <div class="subscribe_image">
+                    <img src="cogoport-subscribe.png" alt="subscribe">
+                </div>
+                <div class="subscribe_text">
+                    <h3>Subscribe to our newsletter now!</h3>
+                    <div>Don’t miss out on the latest happenings at Cogoport.</div>
+                    <div class="subscribe_button_email">
+                        <input type="email" class="subscribe_email" placeholder="Enter your email">
+                        <button class="subscribe_button" >Subscribe</button>
+                    </div>
+                </div>
+                <div class="circle">
+
+                </div>
+            </div>
+            
+            <div></div>
+            
+        <style>
+             .subscribe{
+                z-index: 1;
+                display: flex;
+                justify-content: center;
+                background-color: #fbdc00;
+                margin-top: 100px;
+                padding-top:150px;
+                position: relative;
+            }
+            .circle{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100px;
+                background-color: #fff;
+                border-bottom-right-radius: 100%;
+                border-bottom-left-radius: 100%;
+                z-index:3;
+            }
+           
+            .subscribe_text{
+                margin-left: 100px;
+                display: flex;
+                flex-direction: column;
+               
+                justify-content: flex-start;
+                
+            }
+            .subscribe_button_email{
+                display: flex;
+                margin-top: 20px;
+            }
+            .subscribe_email{
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                padding:16px;
+                border:1px transparent;
+            }
+            .subscribe_button{
+                color:white;
+                border:1px transparent;
+                background-color: #ee3425;
+                padding:16px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            .blog_buttons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top:50px;
+            }
+            .blog_button{
+                background-color: #ee3425;
+                padding: 8px 30px;
+                border-radius: 8px;
+                color: white;
+                border: 1px transparent;
+                
+            }
+            .blogs{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .blog_image{
+                width:100%;
+                height:auto;
+                border-radius: 8px;
+            }
+            .blog{
+                width: 28%;
+                cursor: pointer;
+                border-radius: 8px;
+                box-shadow: 0px 2px 6px gray;
+                
+            }
+            .blog_text{
+                padding-top: 30px;
+                padding: 30px;
+                padding-left:20px;
+            }
             .bar_text{
                 color: white;
 
@@ -630,7 +773,6 @@
                 font-size: 24px;
                 width: 300px;
                 margin-right: 50px;
-                font-size: 24px;
             }
             h5{
                 font-size: 16px;
@@ -643,10 +785,6 @@
             }
         </style>
 
-        <script>
-            let item=document.getElementsByClassName("industries_served");
-            
-        </script>
     </body>
     
 </html>
