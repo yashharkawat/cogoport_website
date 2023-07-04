@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="index.js"></script>
         <title>
             Cogoport - Book & Manage Shipments & Cargo Online
         </title>
@@ -35,7 +37,7 @@
 
             <div class="login">
                 <div class="items">login</div>
-                <button class="sign_up">Sign Up</button>
+                <button class="sign_up"><b>Sign Up</b></button>
             </div>
         </div>
 
@@ -52,11 +54,11 @@
                 
                 <div>
 
-                    <div>Talk to us now!</div>
+                    <p>Talk to us now!</p>
                     
                     <div class="number">
                         <input Placeholder="Whatsapp number" type="number">
-                        <button type="submit" class="green">Get Started</button>
+                        <button type="submit" class="green"><b>Get Started</b></button>
                     </div>
 
                 </div>
@@ -267,7 +269,220 @@
                 </div>
             </div>
 
+            <h3>Trusted by </h3>
+
+            <div> Video -------------------------------------------------------</div>
+            <br><br><br>
+
+
+
+            <h3>How it Works</h3>
+            <div class="working_bar">
+                <button class="cargo"><b>For Cargo Owners</b></button>
+                <button class="logistics"><b>For Logistics Partners</b></button>
+            </div>
+
+
+            <div class="stage">
+
+                <div class="steps_one_two">
+                    <div class="steps">
+                        <strong class="red">Stage 1:</strong>
+                        <h6>Discover</h6>
+                        <ul>
+                            <li><p>Spot and Contract Rates for Logistics</p></li>
+                            <li><p>Service details, Trade Compliance/ Regulatory Requirements</p></li>
+                            <li>Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</li>
+                        </ul>
+                    </div>
+
+                    <div class="steps">
+                        <strong class="red">Stage 2:</strong>
+                        <h6>Plan & Book</h6>
+                        <ul>
+                            <li><p>Route, Service Schedules, Inventory, and Cashflow planning</p></li>
+                            <li>Book with upfront visibility of service terms and inclusions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="steps_image">
+                    <img src="working.png" alt="how it works">
+                </div>
+
+                <div class="steps_three_four">
+                    <div class="steps">
+                        <strong class="red">Stage 3:</strong>
+                        <h6>Execute</h6>
+                        <ul>
+                            <li> <p>Ocean and Air Cargo Tracking</p></li>
+                            <li><p>Documentation and Filings, Handled</p></li>
+                            <li><p>Multi-modal: Smooth coordination and handovers between various service providers and stakeholders</p></li>
+                        </ul>
+                    </div>
+
+                    <div class="steps">
+                        <strong class="red">Stage 4:</strong>
+                        <h6>Finance</h6>
+                        <ul>
+                            <li><p>Deferred payment on Logistics with PayLater </p></li>
+                            <li> <p>Trade Finance for your Cargo with Export Factoring </p></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h3>Industries Served</h3>
+
+            <div class="industries_served">---------------------------</div>
+
+            <div class="get_started">
+                <div class="get_started_text">
+                    <h2>Get Started Today</h2>
+                    <div>
+                        
+                    <p >Plan, Book and Finance your shipment in one place</p>
+                    <div>Experience how Cogoport’s Global Trade Platform can Turbocharge your Business.</div>
+                    </div>
+                    <button class="get_started_button"><b>Get Started</b></button>
+                </div>
+                <div>
+                    <img src="get_started_image.png" alt="Get Started" height="360px">
+                </div>
+            </div>
+
+          
+            <img src="homepage-video.png" alt="homepage video" class="homepage_video">
+            <img  src="play-button-white.png" alt="play" class="play_button">
+  
+
+            <div class="bar">
+                <div class="bar_text">
+                    <h3>Grow Faster with Cogoport</h3>
+                    <div>Know more about Cogoport’s Global Trade Platform</div>
+                </div>
+                <div>
+                    <button class="know_more_button"><b>Know More </b></button>
+                </div>
+            </div>
         <style>
+
+            .bar_text{
+                color: white;
+
+            }
+            .bar{
+                display: flex;
+                background-color: #ee3425;
+                justify-content: space-between;
+                align-items: center;
+                padding: 16px 32px;
+                margin-left:16px;
+                margin-right: 16px;
+                border-collapse: collapse;
+
+            }
+            .know_more_button{
+                background-color: #fbdc00;
+                border-radius: 6px;
+                border: 1px solid #fbdc00;
+                padding: 8px 12px;
+            }
+            .homepage_video{
+                z-index: 1;
+                position: relative;
+                
+            }
+            .play_button{
+                display: flex;
+                cursor: pointer;
+                z-index: 3;
+                left: 50%;
+                bottom:300px;
+                position: relative;
+            }
+            button{
+                cursor:pointer;
+
+            }
+            .get_started_text{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin-right: 100px;
+                
+            }
+            .get_started{
+                display: flex;
+                padding:50px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                justify-content: space-evenly;
+            }
+            .get_started_button{
+                background-color: #ee3425;
+                padding:8px ;
+                border-radius: 8px;
+                height:40px;
+                width:160px;
+                color: white;
+                border: 1px solid #ee3425;
+            }
+            .industries_served{
+                display: flex;
+            }
+            .stage{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+            }
+            .steps_one_two,.steps_three_four {
+                display:flex;
+                flex-direction: column;  
+                justify-content: space-between;  
+            }
+            .steps{
+                width: 300px;
+                border-radius: 10px;
+                box-shadow:0px 1px 6px gray;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                padding:16px;
+            }
+            h6{
+                font-size: 20px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            .steps_image{
+                align-self: center;
+            }
+            .working_bar{
+                display: flex;
+                justify-content: center;
+            }
+            .cargo{
+                background-color: #fbdc00;
+                width: 200px;
+                padding:12px;
+                border-radius: 20px;
+                margin-right: 50px;
+                border:1px solid #fbdc00;
+            }
+            .logistics{
+                background-color: #e5dfdf;
+                width: 200px;
+                padding:12px;
+                border-radius: 20px;
+                border: 1px solid #e5dfdf;
+            }
+
+
+
             .alerts{
                 background-color: #ee3425;
                 display: flex;
@@ -283,6 +498,8 @@
                 align-self: center;
             }
             .navigation_bar{
+                
+                background-color: #fbdc00;
                 display:flex;
                 justify-content: space-between;
                 padding:10px;
@@ -306,19 +523,23 @@
                 align-items: center;
             }
             .sign_up{
+
                 background-color: #ee3425;
                 min-width: 72px;
                 height: 36px;
                 padding: 4px 16px;
                 border-radius: 8px;
+                color: white;
+                border:1px solid #ee3425
             }
             .display{
+                padding: 16px;
+                
                 display: flex;
                 align-items: center;
                justify-content: center;
-               margin-left: 200px;
-               margin-right: 200px;
-               
+               background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+              
                
             }
             .intro{
@@ -335,11 +556,17 @@
             }
             .green{
                 background-color: #36bb22;
+                color: white;
+                padding: 2px 4px;
+                border:1px transparent;
+                border-radius: 8px;
+
             }
             .video{
                 height:300px;
             }
             .cogo_numbers{
+                margin-top: 60px;
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
@@ -350,6 +577,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                font-weight: bold;
             }
             .big_size{
                 font-size: 40px;
@@ -411,9 +639,14 @@
                 color:#ee3425;
             }
             body{
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: sans-serif;
             }
         </style>
+
+        <script>
+            let item=document.getElementsByClassName("industries_served");
+            
+        </script>
     </body>
     
 </html>
