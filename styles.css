@@ -1,3 +1,4 @@
+
 .industries{
     background-color:#fffef2 ;
 }
@@ -48,7 +49,7 @@
 }
 
 .close_button{
-    margin-left: 300px;
+   margin-left:200px;
     font-size: 20;
     font-weight: bolder;
     color: #ebbe00;
@@ -282,6 +283,11 @@ h6{
     font-size: 12px;
     margin-top: 20px;
 }
+.alerts_text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .alerts{
     background-color: #ee3425;
     display: flex;
@@ -380,17 +386,21 @@ video{
 }
 .cogo_numbers{
     margin-top: 60px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 .cogo_number{
+    
     align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    flex-wrap: wrap;
 }
 .big_size{
     font-size: 40px;
@@ -398,7 +408,6 @@ video{
 }
 .supply_chain{
     display:flex;
-    margin-top:230px;
     background-color: #fffef2;
     justify-content: space-between;
     padding-left: 220px;
@@ -409,6 +418,7 @@ h2{
     font-size: 40px;
 }
 .our_products{
+    margin-top: 100px;
     background-color: #fffef2;
 }
 .partition1{
@@ -431,9 +441,9 @@ h3{
 .border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
     display: flex;
     align-items: center;
-    margin-left:200px;
-    margin-right: 200px;
+    margin-right: 50px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -441,11 +451,11 @@ h3{
     display: flex;
     flex-direction: column;
     align-items:center;
-    width: 160px;
-    height: 140px;
-    margin: 10px;
+    width: 160px !important;
+    height: 140px !important;
+    margin: 10px; 
     border-radius: 10px;
-    box-shadow: 0 1px 2px;
+    box-shadow:0 1px 3px;
     text-align: center;
     border: 1.5px solid transparent;
 }
@@ -468,4 +478,109 @@ h5{
 }
 body{
     font-family: sans-serif;
+}
+.menu{
+    color:#fbdc00;
+}
+body{
+    width: 100%;
+    overflow: scroll;
+}
+@media only screen and (max-width: 750px) {
+    .close_button{
+        margin-left: 20px;
+    }
+    .alert_image{
+        height: 25px;
+        width:25px;
+        margin-right: 16px;
+    }
+
+    .menu{
+        color:black;
+        font-weight: bold;
+    }
+    .elements{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .name{
+        margin-left: 0px;
+    }
+    .display{
+        flex-direction: column;
+        padding-left:10px
+    }
+    .image{
+        order:1;
+    }
+    .intro{
+        order:2;
+    }
+    .num{
+        order:3;
+    }
+    .video{
+        height:auto !important;
+        width:100% !important;
+        object-fit:fill;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .cogo_number{
+        margin-right: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cogo_numbers{
+        margin-bottom: 10px !important;
+    }
+    .big_size{
+        font-size: 24px;
+    }
+    .our_products{
+        margin-top: 50px !important;
+    }
+    .supply_chain{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .partition2{
+        order:1;
+    }
+    .partition1{
+        order:2;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+        text-align: start;
+        
+    }
+    h4{
+        font-size: 16px;
+        text-align: start;
+    }
+    .border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box{
+        width:128px !important;
+        height:128px !important;
+        margin:10px;
+    }
+
 }
