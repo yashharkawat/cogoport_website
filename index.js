@@ -1,3 +1,11 @@
+
+document.querySelectorAll('.items').forEach((item)=>{
+  item.addEventListener('click',()=>{
+    item.style.color='red';
+  })
+})
+console.log('hello');
+
 function add(num1,num2){
     return num1+num2;
 }
