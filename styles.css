@@ -1,4 +1,34 @@
+.name img{
+    width:130px;
+    height:50px;
+}
+.slider img{
+    width:150px;
+    height:70px;
+    margin-right: 40px;
 
+}
+
+@keyframes animate {
+
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.slider{
+    display:flex;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    animation: 25s animate infinite linear;
+}
+.industries_served{
+    display: flex;
+    justify-content: space-evenly;
+}
 .industries{
     background-color:#fffef2 ;
 }
@@ -311,7 +341,15 @@ h6{
     position: sticky;
     top: 0%;
 }
-
+.image_h6{
+    display: flex;
+    align-items: center;
+}
+.image_h6 img{
+    width:50px;
+    height: 50px;
+    margin-right: 10px;
+}
 hr{
     display: hidden;
 }
@@ -469,12 +507,21 @@ h3{
     flex-direction: column;
     align-items:center;
     width: 160px !important;
-    height: 140px !important;
+    height: 160px;
     margin: 10px; 
     border-radius: 10px;
     box-shadow:0 1px 3px;
     text-align: center;
     border: 1.5px solid transparent;
+    
+}
+.reduce_size{
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+.box img{
+    width:80px;
+    height:80px ;
 }
 .text{
     margin-right: 50px;
@@ -509,6 +556,10 @@ body{
     cursor: pointer;
 }
 @media only screen and (max-width: 750px) {
+    .box img{
+        width:60px;
+        height:60px ;
+    }
     .close_button{
         margin-left: 20px;
     }
@@ -604,8 +655,8 @@ body{
         justify-content: center;
     }
     .box{
-        width:128px !important;
-        height:128px !important;
+        width:140px !important;
+        height:140px !important;
         margin:14px;
     }
     .trust{
@@ -760,9 +811,15 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        padding-left: 0px;
+        padding-right: 30px;
     }
-    .box{
-       
-
+    .industries_served{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .industries_served img{
+        margin-right:40px;
     }
 }
