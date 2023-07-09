@@ -1,3 +1,6 @@
+.number{
+    display:flex;
+}
 html, body {
     height:100%;
     width:1300px;
@@ -5,7 +8,12 @@ html, body {
     padding:0;
     overflow: auto;
 }
-
+.alerts img{
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+  }
 @media only screen and (min-width: 1300px) {
     html, body {
         height:100%;
@@ -16,11 +24,15 @@ html, body {
     }
     .homepage_video{
         width:100%;
+        cursor: pointer;
     }
 }
 .name img{
     width:130px;
     height:50px;
+}
+.name :hover{
+    cursor: pointer;
 }
 .slider img{
     width:150px;
@@ -64,17 +76,50 @@ html, body {
     margin-bottom: 80px;
    
 }
-.whatsapp{
+.whatsapp_icon{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top:20px;
+    left:10px;
+    
+}
+.number_icon{
+    position: absolute;
+    top:23px;
+    left:80px;
+    cursor: pointer;
+
+}
+.code{
+    padding-left: 40px;
     margin-top:10px;
-    padding-left:16px;
     min-height: 40px;
     padding-right: 150px;
     font-size: 14px;
     color: #000;
     border: 1px solid #e0e0e0;
     border-radius: 20px;
-    
+    outline: none;
 }
+.product_logistics{
+    padding-left: 120px;
+}
+.whatsapp{
+    border: 1px white;
+    left:100px;
+    position: absolute;
+    margin-top:10px;
+    padding-left:16px;
+    min-height: 40px;
+    padding-right: 150px;
+    font-size: 14px;
+    color: #000;
+    border-radius: 20px;
+    width:120px;
+    outline:none !important;
+}
+
 .number{
     position:relative;
     z-index:1;
@@ -87,7 +132,7 @@ html, body {
     border:1px transparent;
     border-radius: 12px;
     top:18px;
-    left:235px;
+    left:278px;
 }
 .cogoport_name{
     color:#ee3425;
@@ -127,7 +172,16 @@ html, body {
 }
 .property{
     margin-bottom: 16px;
+    cursor: pointer;
+
 }
+.property :hover{
+    text-decoration: underline;
+    color: #000;
+}
+  
+  
+  
 .services{
     display: flex;
     background-color: #fbdc00;
@@ -391,8 +445,7 @@ hr{
     align-items: center;
 }
 .items a:hover{
-    color:#ee3425;
-    background-color: #ee3425;
+    text-decoration: underline;
 }
 .elements{
     cursor: pointer;
@@ -402,6 +455,9 @@ hr{
     align-items: center;
     font-size: 14px;
     font-weight: bold;
+}
+.elements :hover{
+    color:#ee3425;
 }
 .sign_up{
     margin-left: 10px;
@@ -414,11 +470,16 @@ hr{
     border:1px solid #ee3425
 }
 .display{
+    padding-bottom: 10px;
     padding-left: 150px;
     display: flex;
     align-items: center;
-   justify-content: space-evenly;
-   background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+    justify-content: space-evenly;
+    background-color: #fbdc00;
+    
+    background-image:url(home-banner-background.png);
+    background-position-x: center;
+    background-position-y: bottom;
    
 }
 .intro{
@@ -431,7 +492,7 @@ hr{
 .image{
     flex-grow: 1;
     width:auto;
-    
+    margin-bottom: -38px;
 }
 h1{
     font-size: 40px;
@@ -527,7 +588,10 @@ h3{
     display:flex;
 
 }
+
 .box{
+    
+    
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -536,10 +600,18 @@ h3{
     height: 160px;
     margin: 10px; 
     border-radius: 10px;
-    box-shadow:0 1px 3px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
     text-align: center;
     border: 1.5px solid transparent;
     
+}
+
+.boxs :hover{
+    border:1px solid #ee3425;
+    cursor: pointer;
+}
+.box :hover{
+    border: none;
 }
 .reduce_size{
     margin-bottom: 10px;
@@ -682,7 +754,7 @@ body{
     .border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
         margin-left: 0px;
         margin-right: 0px;
-    margin-bottom: 0px;
+        margin-bottom: 0px;
         flex-wrap: wrap;
        
         display: flex;
@@ -765,6 +837,7 @@ body{
         height:350px;
         width:100%;
         object-fit: fill;
+        cursor: pointer;
         
     }
     
@@ -794,6 +867,7 @@ body{
         align-items: center;
         justify-content: center;
         height: auto;
+        cursor: pointer;
         
     }
     .blogs{
@@ -852,8 +926,9 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding-left: 0px;
-        padding-right: 30px;
+        
+        align-items: center;
+        padding-right: 80px;
     }
     .industries_served{
         margin-left: 10px;
@@ -873,6 +948,9 @@ body{
         overflow-x: hidden;
         height: auto;
         
+    }
+    .product_logistics{
+        padding-left: 10px;
     }
 }
 
