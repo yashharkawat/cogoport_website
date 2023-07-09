@@ -1,3 +1,266 @@
+html, body {
+    height:100%;
+    width:1300px;
+    margin:0;
+    padding:0;
+    overflow: auto;
+    font-family:sans-serif;
+}
+@media only screen and (min-width: 1300px) {
+    html, body {
+        height:100%;
+        width:100%;
+        margin:0;
+        padding:0;
+        
+    }
+    .homepage_video{
+        width:100%;
+        cursor: pointer;
+        height:auto;
+        
+    }
+}
+.video_homepage{
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+    text-align: center;
+}
+h4{
+    font-size: 24px;
+    width: 300px;
+    margin-right: 50px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.alerts img{
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+  }
+
+  
+.alerts_text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.alerts{
+    background-color: #ee3425;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    
+}
+.yellow {
+    color:yellow;
+}
+.items{
+    margin-right: 6px;
+    align-self: center;
+}
+.navigation_bar{
+    z-index: 10;
+    background-color: #fbdc00;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    position: sticky;
+    top: 0%;
+    height: auto;
+   
+}
+
+.items a:hover{
+    text-decoration: underline;
+}
+.elements{
+    cursor: pointer;
+    display:flex;
+    flex-grow: 4;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.elements :hover{
+    color:#ee3425;
+}
+.sign_up{
+    margin-left: 10px;
+    background-color: #ee3425;
+    min-width: 72px;
+    height: 36px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    color: white;
+    border:1px solid #ee3425
+}
+.name{
+    flex-grow: 1;
+    padding-left:60px;
+    padding-right: 60px;
+}
+.login{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    padding-bottom: 10px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fbdc00;
+    
+    background-image:url(home-banner-background.png);
+    background-position-x: center;
+    background-position-y: bottom;
+   
+}
+.intro{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.image{
+    flex-grow: 1;
+    width:auto;
+    margin-bottom: -38px;
+}
+
+.cogo_numbers{
+    margin-top: 60px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cogo_number{
+    
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.big_size{
+    font-size: 40px;
+    color: #ee3425;
+}
+.supply_chain{
+    display:flex;
+    background-color: #fffef2;
+    justify-content: space-between;
+    padding-left: 220px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.our_products{
+    margin-top: 100px;
+    background-color: #fffef2;
+}
+.partition1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 100px;
+}
+.big_text{
+    flex-wrap: wrap;
+}
+.partition2{
+    
+    flex-grow:1;
+}
+.boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    
+}
+
+
+.border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
+    display: flex;
+    
+    align-items: flex-start;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.one_item{
+    display:flex;
+
+}
+
+.box{
+    
+    
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 160px !important;
+    height: 160px;
+    margin: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+    text-align: center;
+    border: 1.5px solid transparent;
+    
+}
+
+.boxs :hover{
+    border:1px solid #ee3425;
+    cursor: pointer;
+}
+.box :hover{
+    border: none;
+}
+.reduce_size{
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+.box img{
+    width:80px;
+    height:80px ;
+}
+.text{
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
 .english img{
     width:20px;
     height:20px;
@@ -31,32 +294,8 @@
 .number{
     display:flex;
 }
-html, body {
-    height:100%;
-    width:1300px;
-    margin:0;
-    padding:0;
-    overflow: auto;
-}
-.alerts img{
-    margin-right: 10px;
-}
-a {
-    text-decoration: none;
-  }
-@media only screen and (min-width: 1300px) {
-    html, body {
-        height:100%;
-        width:100%;
-        margin:0;
-        padding:0;
-        
-    }
-    .homepage_video{
-        width:100%;
-        cursor: pointer;
-    }
-}
+
+
 .name img{
     width:130px;
     height:50px;
@@ -315,6 +554,8 @@ a {
     padding: 16px 32px;
     
 
+
+
 }
 .know_more_button{
     background-color: #fbdc00;
@@ -326,6 +567,7 @@ a {
     
     z-index: 1;
     position: relative;
+    
 }
 .play_button{
     display: flex;
@@ -384,12 +626,7 @@ button{
     margin-bottom: 60px;
     padding:16px;
 }
-h6{
-    cursor: pointer;
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
+
 .steps_image{
     align-self: center;
 }
@@ -419,37 +656,6 @@ h6{
     font-size: 12px;
     margin-top: 20px;
 }
-.alerts_text{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.alerts{
-    background-color: #ee3425;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
-    
-}
-.yellow {
-    color:yellow;
-}
-.items{
-    margin-right: 6px;
-    align-self: center;
-}
-.navigation_bar{
-    z-index: 10;
-    background-color: #fbdc00;
-    display:flex;
-    justify-content: space-between;
-    padding:10px;
-    position: sticky;
-    top: 0%;
-    height: auto;
-   
-}
 .image_h6{
     display: flex;
     align-items: center;
@@ -462,73 +668,7 @@ h6{
 hr{
     display: hidden;
 }
-.name{
-    flex-grow: 1;
-    padding-left:60px;
-    padding-right: 60px;
-}
-.login{
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.items a:hover{
-    text-decoration: underline;
-}
-.elements{
-    cursor: pointer;
-    display:flex;
-    flex-grow: 4;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    font-weight: bold;
-}
-.elements :hover{
-    color:#ee3425;
-}
-.sign_up{
-    margin-left: 10px;
-    background-color: #ee3425;
-    min-width: 72px;
-    height: 36px;
-    padding: 4px 16px;
-    border-radius: 8px;
-    color: white;
-    border:1px solid #ee3425
-}
-.display{
-    padding-bottom: 10px;
-    padding-left: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #fbdc00;
-    
-    background-image:url(home-banner-background.png);
-    background-position-x: center;
-    background-position-y: bottom;
-   
-}
-.intro{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.image{
-    flex-grow: 1;
-    width:auto;
-    margin-bottom: -38px;
-}
-h1{
-    font-size: 40px;
-}
+
 video{
     width: auto;
     height: 400px !important;
@@ -545,134 +685,14 @@ video{
 .video{
     height:300px;
 }
-.cogo_numbers{
-    margin-top: 60px;
-    margin-bottom: 200px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.cogo_number{
-    
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    flex-wrap: wrap;
-}
-.big_size{
-    font-size: 40px;
-    color: #ee3425;
-}
-.supply_chain{
-    display:flex;
-    background-color: #fffef2;
-    justify-content: space-between;
-    padding-left: 220px;
-    padding-right: 200px;
-    padding-top: 100px;
-}
-h2{
-    font-size: 40px;
-}
-.our_products{
-    margin-top: 100px;
-    background-color: #fffef2;
-}
-.partition1{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin-right: 100px;
-}
-.big_text{
-    flex-wrap: wrap;
-}
-.partition2{
-    
-    flex-grow:1;
-}
-.boxs{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-self: center;
-    
-}
-h3{
-    font-size: 28px;
-    text-align: center;
-}
 
-.border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
-    display: flex;
-    
-    align-items: flex-start;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    margin-left: 100px;
-}
-.one_item{
-    display:flex;
 
-}
-
-.box{
-    
-    
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    width: 160px !important;
-    height: 160px;
-    margin: 10px; 
-    border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(169,188,218,.65);
-    text-align: center;
-    border: 1.5px solid transparent;
-    
-}
-
-.boxs :hover{
-    border:1px solid #ee3425;
-    cursor: pointer;
-}
-.box :hover{
-    border: none;
-}
-.reduce_size{
-    margin-bottom: 10px;
-    margin-top: 4px;
-}
-.box img{
-    width:80px;
-    height:80px ;
-}
-.text{
-    margin-right: 50px;
-    flex-wrap: wrap;
-}
-h4{
-    font-size: 24px;
-    width: 300px;
-    margin-right: 50px;
-}
-h5{
-    font-size: 16px;
-}
 .red{
     color:#ee3425;
     font-size: 14px;
     font-weight: bold;
 }
-body{
-    font-family: sans-serif;
-}
+
 .menu{
     color:#fbdc00;
 }
@@ -870,6 +890,7 @@ body{
         width:100%;
         object-fit: fill;
         cursor: pointer;
+       
         
     }
     
