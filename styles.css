@@ -1,3 +1,33 @@
+.english img{
+    width:20px;
+    height:20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.english strong{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.english{
+    margin-right:30px;
+}
+.english_and_icons{
+    display:flex;
+}
+.icons{
+    display:flex;
+
+}
+.icons svg{
+    width:16px;
+    height:16px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.english{
+    display:flex;
+    align-items: center;
+}
 .number{
     display:flex;
 }
@@ -180,7 +210,9 @@ a {
     color: #000;
 }
   
-  
+  .video_mobile{
+   display: none;
+  }
   
 .services{
     display: flex;
@@ -408,7 +440,7 @@ h6{
     align-self: center;
 }
 .navigation_bar{
-    
+    z-index: 10;
     background-color: #fbdc00;
     display:flex;
     justify-content: space-between;
@@ -952,5 +984,20 @@ body{
     .product_logistics{
         padding-left: 10px;
     }
+    .video{
+        display: none;
+    }
+    .video_mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .partition2{
+        align-self: center;
+    }
+    .increase_margin{
+        margin-left:10px;
+    }
+    
 }
 
