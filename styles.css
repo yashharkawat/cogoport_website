@@ -177,6 +177,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .cogo_number{
     
     align-self: center;
@@ -539,6 +540,11 @@ a {
     align-items: center;
     margin-top:50px;
 }
+.blog img{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height:200px;
+}
 .blog_button{
     background-color: #ee3425;
     padding: 8px 30px;
@@ -668,12 +674,36 @@ button{
 }
 
 .steps_image{
+    position: relative;
     align-self: center;
-    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .steps_image img{
     width: 560px;
     height:320px;
+}
+.line_arrow1 img{
+    width:190px;
+    height:59px;
+}
+
+.line_arrow2 img{
+    width:190px;
+    height:59px;
+}
+
+.line_arrow3 img{
+    width:190px;
+    height:59px;
+}
+
+.line_arrow4 img{
+    width:190px;
+    height:59px;
 }
 .working_bar{
     display: flex;
