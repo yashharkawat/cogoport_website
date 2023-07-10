@@ -4,7 +4,7 @@ html, body {
     margin:0;
     padding:0;
     overflow: auto;
-    font-family:sans-serif;
+    font-family:"ubuntu";
 }
 @media only screen and (min-width: 1300px) {
     html, body {
@@ -56,16 +56,22 @@ a {
     text-decoration: none;
   }
 
-  
-.alerts_text{
-    display:flex;
+.alerts_text_image{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
     justify-content: center;
-    align-items: center;
+}
+.close_button{
+    display: flex;
+    align-self: center;
+    margin-right: 60px;
+    cursor: pointer;
 }
 .alerts{
     background-color: #ee3425;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding:10px;
     
@@ -104,6 +110,12 @@ a {
 .elements :hover{
     color:#ee3425;
 }
+.find_out{
+    color: #ee3425;
+    font-weight: bold;
+    display: flex;
+    font-size:14px;
+}
 .sign_up{
     margin-left: 10px;
     background-color: #ee3425;
@@ -129,31 +141,33 @@ a {
     align-items: center;
 }
 .display{
-    padding-bottom: 10px;
-    padding-left: 150px;
+   
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     background-color: #fbdc00;
-    
-    background-image:url(home-banner-background.png);
+    justify-content: space-evenly;
+    background-image:url(./images/home-banner-background.png);
     background-position-x: center;
     background-position-y: bottom;
    
 }
 .intro{
-    flex-grow: 1;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    flex-wrap: wrap;
+    
 }
 .image{
-    flex-grow: 1;
+    
     width:auto;
     margin-bottom: -38px;
 }
-
+.image video{
+    margin-bottom: 11px;
+}
 .cogo_numbers{
     margin-top: 60px;
     margin-bottom: 200px;
@@ -188,6 +202,8 @@ a {
 .our_products{
     margin-top: 100px;
     background-color: #fffef2;
+    padding-bottom: 20px;
+    
 }
 .partition1{
     display: flex;
@@ -224,7 +240,11 @@ a {
     display:flex;
 
 }
-
+.red{
+    font-size: 16px;
+    color: #ee3425;
+    font-weight: bold;
+}
 .box{
     
     
@@ -331,7 +351,10 @@ a {
     justify-content: space-evenly;
 }
 .industries{
+    padding:16px;
+    padding-bottom:32px;
     background-color:#fffef2 ;
+    margin-bottom: 40px;
 }
 
 .get_ready{
@@ -370,6 +393,8 @@ a {
     border: 1px solid #e0e0e0;
     border-radius: 20px;
     outline: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 .product_logistics{
     padding-left: 120px;
@@ -381,12 +406,13 @@ a {
     margin-top:10px;
     padding-left:16px;
     min-height: 40px;
-    padding-right: 150px;
+    padding-right: 156px;
     font-size: 14px;
     color: #000;
     border-radius: 20px;
     width:120px;
     outline:none !important;
+    top:0.9px;
 }
 
 .number{
@@ -413,13 +439,7 @@ a {
     font-size: 12px;
 }
 
-.close_button{
-   margin-left:200px;
-    font-size: 20;
-    font-weight: bolder;
-    color: #ebbe00;
-    cursor:pointer;
-}
+
 .copyright{
     display: flex;
     justify-content: space-between;
@@ -521,6 +541,12 @@ a {
     border: 1px transparent;
     
 }
+.blog_read_more{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #ee3425;
+}
 .blogs{
     display: flex;
     justify-content: space-evenly;
@@ -590,10 +616,15 @@ button{
 }
 .get_started{
     display: flex;
-    padding:50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: space-evenly;
+    padding-right:100px;
+    padding-left: 100px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .get_started_button{
     background-color: #ee3425;
@@ -611,7 +642,10 @@ button{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .steps_one_two,.steps_three_four {
     display:flex;
@@ -621,14 +655,19 @@ button{
 .steps{
     width: 300px;
     border-radius: 10px;
-    box-shadow:0px 1px 6px gray;
     margin-top: 60px;
     margin-bottom: 60px;
     padding:16px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
 }
 
 .steps_image{
     align-self: center;
+    
+}
+.steps_image img{
+    width: 560px;
+    height:320px;
 }
 .working_bar{
     display: flex;
@@ -649,8 +688,15 @@ button{
     border-radius: 20px;
     border: 1px solid #e5dfdf;
 }
-
-
+.get_image{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50px;
+}
+.get_image img{
+    width:auto;
+    height:360px;
+}
 .talk{
     font-weight: bold;
     font-size: 12px;
@@ -687,11 +733,7 @@ video{
 }
 
 
-.red{
-    color:#ee3425;
-    font-size: 14px;
-    font-weight: bold;
-}
+
 
 .menu{
     color:#fbdc00;
@@ -710,6 +752,7 @@ video{
         width: 100%;
         height: 100%;
        overflow-x: hidden;
+       font-size: 14px;
         
     }
     
@@ -725,10 +768,14 @@ video{
         width:25px;
         margin-right: 16px;
     }
-
+    .find_out{
+        font-size: 12px;
+    }
     .menu{
         color:black;
         font-weight: bold;
+        align-self: center;
+        padding-left: 10px;
     }
     .elements{
         display: none;
@@ -738,16 +785,30 @@ video{
     }
     .name{
         margin-left: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .display{
         flex-direction: column;
-        padding-left:10px;
-       
+        padding-left:32px;
+        padding-right: 16px;
+        
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+    .break{
+        display: none;
+    }
+    .intro_text{
+        display: flex;
     }
     .image{
         order:1;
     }
     .intro{
+        padding:16px;
         order:2;
     }
     .num{
@@ -762,10 +823,13 @@ video{
         font-size: 24px;
     }
     .cogo_number{
-        margin-right: 20px;
+        display:flex ;
+        align-items: center;
         margin-bottom: 20px;
         align-items: center;
-        justify-content: space-between;
+        width:50%;
+        justify-content: center;
+        text-align: center;
     }
     .cogo_numbers{
         margin-bottom: 10px !important;
@@ -773,24 +837,41 @@ video{
     .big_size{
         font-size: 24px;
     }
+    .reduce_font{
+        font-size: 14px;;
+    }
+    .reduce_size{
+        font-size:14px;
+    }
     .our_products{
         margin-top: 50px !important;
         padding-left: 10px;
     }
     .supply_chain{
-        padding-left: 10px;
-        padding-right: 10px;
+        
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
     }
     .partition2{
         order:1;
     }
     .partition1{
         order:2;
+        
         margin-right: 10px;
         margin-bottom: 10px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        
     }
+    
     h2{
         font-size: 24px;
     }
@@ -799,24 +880,17 @@ video{
         text-align: start;
     }
     h4{
-        font-size: 16px;
+        font-size: 14px;
         text-align: start;
         padding-right: 300px;
     }
     .border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        flex-wrap: wrap;
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: contents;
     }
     .box{
-        width:140px !important;
-        height:140px !important;
-        margin:14px;
+        width:128px !important;
+        height:128px !important;
+        margin:8px;
     }
     .trust{
         text-align: center;
@@ -981,7 +1055,7 @@ video{
         justify-content: center;
         
         align-items: center;
-        padding-right: 80px;
+        padding-right: 0px;
     }
     .industries_served{
         margin-left: 10px;
@@ -1021,4 +1095,3 @@ video{
     }
     
 }
-

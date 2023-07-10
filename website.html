@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
         <script src="index.js"></script>
         <title>
             
@@ -12,17 +13,16 @@
     <body>
         
         <div class="alerts">
-        
-        <img class="alert_image" src="./images/cogoport_icon.png" alt="icon" width="16" height="16">
-        
-        <div class="alerts_text">
-            <strong class="items">Limited Time Offer: Get 15% off on all Cogo Assured Rates.
-                <a href="" class="yellow">Book Today!</a>
-            </strong>
+            <div class="alerts_text_image">
+                <img class="alert_image" src="./images/cogoport_icon.png" alt="icon" width="16" height="16">
+                <strong class="items">Limited Time Offer: Get 15% off on all Cogo Assured Rates.
+                    <a href="" class="yellow">Book Today!</a>
+                </strong>
+            </div>
             <div class="close_button">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#FBDC22" viewBox="0 0 14 14" width="1em" height="1em" role="img" class="styles_cross__5Alky"><path class="ic-m-cross_svg__ic_m_cross" d="M2.828 2.516a.922.922 0 0 0-.31.311.372.372 0 0 0 .004.353c.033.066.654.704 1.908 1.959L6.288 7 4.43 8.861c-1.254 1.255-1.875 1.893-1.908 1.959-.09.181-.049.348.13.529.172.173.351.217.528.129.066-.033.704-.654 1.959-1.908L7 7.712 8.861 9.57c1.255 1.254 1.893 1.875 1.959 1.908.177.088.355.044.529-.129.173-.174.217-.352.129-.529-.033-.066-.654-.704-1.908-1.959L7.712 7 9.57 5.139c1.254-1.255 1.875-1.893 1.908-1.959.088-.177.044-.356-.129-.528-.181-.179-.348-.22-.529-.13-.066.033-.704.654-1.959 1.908L7 6.288 5.139 4.43C3.884 3.176 3.246 2.555 3.18 2.522a.384.384 0 0 0-.352-.006" fill-rule="evenodd"></path></svg>
+    
             </div>
-        </div>
         </div>
 
 
@@ -65,9 +65,8 @@
             <div class="intro">
                 <h1 >Grow Faster, Go Global.</h1>
                 
-                <div >
-                    <div> Strengthen your Supply Chain, and Scale your Business</div>    
-                    <div>with Reliable Shipping and Cashflows.</div>
+                <div class="intro_text">
+                    <div> Strengthen your Supply Chain, and Scale your Business <br class="break"> with Reliable Shipping and Cashflows.</div>
                 </div>
                 
                 <div class="num">
@@ -128,22 +127,19 @@
 
         <div class="our_products">
 
+            <div class="supply_chain">
+                <div class="partition1">
+                    <h2 class="big_text">One Stop Solution for Your Supply Chain</h2>
+                    <div class="reduce_font">Connected Shipping, Finance, and Trade-tech, to Power Global Trade and Supply Chains.</div>
+                </div>
             
-        <div class="supply_chain">
-
-            <div class="partition1">
-                <h2 class="big_text">One Stop Solution for Your 
-                Supply Chain</h2>
-                <div>Connected Shipping, Finance, and Trade-tech, to Power Global Trade and Supply Chains.</div>
+                <div class="partition2">
+                    <img src="./images/supply_chain.png" alt="supply chain">
+                </div>
             </div>
-
-            <div class="partition2">
-                <img src="./images/supply_chain.png" alt="supply chain">
-            </div>
-        
-        </div>
+            
             <h3 class="increase_margin">Our Products</h3>
-
+            
             <div class="product_logistics">
                 <div class="border_logistics">
                     <h4 class="text">End to End Cross Border Logistics</h4>
@@ -151,22 +147,30 @@
                         <div class="box">
                             <img src="./images/products/1.png">
                             <h5 class="reduce_size">Ocean: FCL</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/2.png">
                             <h5 class="reduce_size">Ocean: LCL</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/3.png">
                             <h5 class="reduce_size">International Air</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/4.png">
                             <h5 class="reduce_size">Customs, CFS, & Handling</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -177,12 +181,16 @@
                         <div class="box">
                             <img src="./images/products/5.png">
                             <h5 class="reduce_size">FTL, PTL</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/6.png">
                             <h5 class="reduce_size">Trailer & Rail Container Haulage</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -193,22 +201,30 @@
                         <div class="box">
                             <img src="./images/products/7.png">
                             <h5 class="reduce_size">CogoAssured</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/8.png">
                             <h5 class="reduce_size">Domestic Fulfilment</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/9.png">
                             <h5 class="reduce_size">Door to Door Shipments</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/10.png">
                             <h5 class="reduce_size">Cargo Insurance</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -219,12 +235,16 @@
                         <div class="box">
                             <img src="./images/products/11.png">
                             <h5 class="reduce_size">Pay Later</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/12.png">
                             <h5 class="reduce_size">Export Factoring</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -235,27 +255,37 @@
                         <div class="box">
                             <img src="./images/products/13.png">
                             <h5 class="reduce_size">Freight Rate & Schedules</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/14.png">
                             <h5 class="reduce_size">Quick Premium Quotations</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/15.png">
                             <h5 class="reduce_size">Duties & Taxes Calculator</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                        </div>
                         </div>
                         <div class="box">
                             <img src="./images/products/16.png">
                             <h5 class="reduce_size">Tracking & Visibility</h5>
-                            <div class="red">Find Out More</div>
+                            <div class="find_out"><div>Find Out More </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="1em" height="1em" role="img" style="margin-right: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
                 </div>
+
+       
+            </div>
                 <h3 class="trust">Trusted by </h3>
                 
                 <div class="slider">
@@ -348,7 +378,6 @@
             
             </div>
             
-            </div>
             
             <div class="industries">
                 <h3 class="margin">Industries Served</h3>
@@ -403,19 +432,23 @@
                 <div class="blog">
                     <img class="blog_image" src="./images/blogs_images/blog1.png" alt="blog 1">
                     <div class="blog_text">
-                        <div class="red"><b>Expert Speak</b></div>
+                        <div class="red"><b>Trade News</b></div>
                         <h6>Cogoport: A Global Trade Platform</h6>
                         <p>Cogoport leverages technology and caters to enterprises of all sizes. Our solutions improve predictability and enhance human capabilities.</p>
-                        <div class="red"><b>Read More -></b></div>
+                        <div class="blog_read_more"><b><div>Read More </div> 
+                            <div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="20" height="20" role="img" style="margin-left: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                        </b></div> </div>
                     </div>
                 </div>
                 <div class="blog">
                     <img class="blog_image" src="./images/blogs_images/blog2.png" alt="blog 1">
                     <div class="blog_text">
-                        <div class="red"><b>Industry Basics</b></div>
+                        <div class="red"><b>Expert Speak</b></div>
                         <h6>Understanding Lean Supply Chain Management: Definition and Considerations</h6>
                         <p>Cogoport leverages technology and caters to enterprises of all sizes. Our solutions improve predictability and enhance human capabilities.</p>
-                        <div class="red"><b>Read More -></b></div>
+                        <div class="blog_read_more"><b><div>Read More </div> 
+                            <div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="20" height="20" role="img" style="margin-left: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                        </b></div> </div>
                     </div>
                 </div>
                 <div class="blog">
@@ -424,7 +457,9 @@
                         <div class="red"><b>Industry Basics</b></div>
                         <h6>Exploring Types of Supply Chain Management Strategies & Logistics</h6>
                         <p>What are the types of supply chain management? How can we effectively apply them to your business and customer service? Let's find out together!</p>
-                        <div class="red"><b>Read More -></b></div>
+                        <div class="blog_read_more"><b><div>Read More </div> 
+                            <div><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 14 14" width="20" height="20" role="img" style="margin-left: 5px;"><path class="ic-m-arrow_next_svg__ic_m_arrow_next" d="M7.945 2.517c-.186.086-.361.319-.361.481 0 .144.088.27.438.627a296.139 296.139 0 0 1 2.781 2.871c0 .007-2.029.016-4.509.02l-4.509.006-.09.056c-.252.156-.249.689.004.847l.086.053 4.509.006c2.48.004 4.509.012 4.509.02 0 .011-1.539 1.6-2.792 2.882-.338.346-.427.474-.427.616 0 .23.3.523.536.524a.46.46 0 0 0 .192-.064c.074-.043.742-.713 2.026-2.035 1.054-1.085 1.946-1.991 1.983-2.015.092-.058.197-.278.197-.412 0-.134-.105-.354-.197-.412-.037-.024-.929-.93-1.983-2.015-1.284-1.322-1.952-1.992-2.026-2.035a.36.36 0 0 0-.367-.021" fill-rule="evenodd"></path></svg>
+                        </b></div> </div>
                     </div>
                 </div>
             </div>
