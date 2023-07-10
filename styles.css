@@ -21,6 +21,7 @@ html, body {
         
     }
 }
+
 .video_homepage{
     position: relative;
 }
@@ -193,10 +194,12 @@ a {
 .supply_chain{
     display:flex;
     background-color: #fffef2;
-    justify-content: space-between;
-    padding-left: 220px;
-    padding-right: 200px;
-    padding-top: 100px;
+    padding-top: 120px;
+    width: 1250px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 .our_products{
@@ -206,10 +209,12 @@ a {
     
 }
 .partition1{
+    width: 300px;
+    padding-left: 150px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 1;
-    margin-right: 100px;
 }
 .big_text{
     flex-wrap: wrap;
@@ -397,7 +402,8 @@ a {
     border-bottom-right-radius: 0px;
 }
 .product_logistics{
-    padding-left: 120px;
+    padding-left: 100px;
+    width:1250px;
 }
 .whatsapp{
     border: 1px white;
@@ -848,27 +854,28 @@ video{
         padding-left: 10px;
     }
     .supply_chain{
-        
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
         align-items: center;
+        padding-left: 10px;
     }
     .partition2{
         order:1;
+        align-self: center;
+        padding:0px;
     }
     .partition1{
         order:2;
-        
+        width:100%;
         margin-right: 10px;
         margin-bottom: 10px;
         align-self: center;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        padding:0px;
         
     }
     
@@ -1078,6 +1085,7 @@ video{
     }
     .product_logistics{
         padding-left: 10px;
+        width:100%;
     }
     .video{
         display: none;
