@@ -134,7 +134,7 @@ a {
     background-image:url(./images/home-banner-background.png);
     background-position-x: center;
     background-position-y: bottom;
-   
+    
 }
 .intro{
     
@@ -146,12 +146,12 @@ a {
     
 }
 .image{
-    
     width:auto;
     margin-bottom: -38px;
 }
 .image video{
     margin-bottom: 11px;
+    
 }
 .cogo_numbers{
     margin-top: 60px;
@@ -179,12 +179,11 @@ a {
 .supply_chain{
     display:flex;
     background-color: #fffef2;
-    padding-top: 120px;
-    width: 1250px;
+    padding-top: 60px;
+    width: 1265px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    justify-content: center;
+    padding-left: 20px;
 }
 
 .our_products{
@@ -194,19 +193,25 @@ a {
     
 }
 .partition1{
-    width: 300px;
-    padding-left: 150px;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-grow: 1;
+   
+    align-self: center;
+
 }
 .big_text{
     flex-wrap: wrap;
 }
 .partition2{
-    
-    flex-grow:1;
+    margin-left: 100px;
+    width: 500px;
+    height: 100%;
+}
+.partition2 img{
+    width: 100%;
+    height: 100%;
 }
 .boxs{
     display: flex;
@@ -219,12 +224,10 @@ a {
 
 .border_logistics, .domestic_logistics, .supply_chain_solution,.financial_services,.trade_solutions{
     display: flex;
-    
+    justify-content: center;
     align-items: flex-start;
-    margin-right: 50px;
     margin-bottom: 30px;
-    flex-wrap: wrap;
-    margin-left: 100px;
+    
 }
 .one_item{
     display:flex;
@@ -242,7 +245,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items:center;
-    width: 160px !important;
+    width: 184px ;
     height: 160px;
     margin: 10px; 
     border-radius: 10px;
@@ -251,7 +254,9 @@ a {
     border: 1.5px solid transparent;
     
 }
-
+.boxs{
+    width:780px;
+}
 .boxs :hover{
     border:1px solid #ee3425;
     cursor: pointer;
@@ -268,8 +273,9 @@ a {
     height:80px ;
 }
 .text{
-    margin-right: 50px;
+    margin-right: 80px;
     flex-wrap: wrap;
+    width:330px;
 }
 .english img{
     width:20px;
@@ -386,10 +392,7 @@ a {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.product_logistics{
-    padding-left: 100px;
-    width:1250px;
-}
+
 .whatsapp{
     border: 1px white;
     left:100px;
@@ -689,7 +692,23 @@ button{
     padding:16px;
     box-shadow: 0 1px 6px rgba(169,188,218,.65);
 }
+.whatsapp_us{
+    position: fixed;
+    top: 20%;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 60px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #ee3425;
+    border-radius: 4px;
+    z-index:1;
 
+}
 @media only screen and (min-width: 751px) {
     
     .steps_image{
@@ -863,6 +882,9 @@ li{
        font-size: 14px;
         
     }
+    .whatsapp_us{
+        display: none;
+    }
     .line_arrow1,.line_arrow2,.line_arrow3,.line_arrow4{
         display: none;
     }
@@ -971,8 +993,11 @@ li{
     }
     .partition2{
         order:1;
-        align-self: center;
         padding:0px;
+    }
+    .partition2 img{
+        width:384px;
+        height: 225px;
     }
     .partition1{
         order:2;
@@ -986,7 +1011,9 @@ li{
         padding:0px;
         
     }
-    
+    .boxs{
+        width:auto;
+    }
     h2{
         font-size: 24px;
     }
@@ -1272,6 +1299,12 @@ li{
         margin:0;
         padding:0;
         
+    }
+    .text{
+        margin-left: 30px;
+    }
+    .supply_chain{
+        width:100%;
     }
     .homepage_video{
         width:100%;
